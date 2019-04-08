@@ -1,0 +1,101 @@
+hash: c5b3c01a3fca433c1eff5f757fac7d820a8428a3ea7170835e0e90ccf83cdfbb
+updated: 2019-04-04T13:38:36.834286+08:00
+imports:
+- name: github.com/aead/chacha20
+  version: 8b13a72661dae6e9e5dea04f344f0dc95ea29547
+  subpackages:
+  - chacha
+- name: github.com/bifurcation/mint
+  version: 83ba9bc2ead9cdf8b0c8bd94e8a41243e5f6ed88
+  subpackages:
+  - syntax
+- name: github.com/cheekybits/genny
+  version: d2cf3cdd35ce0d789056c4bc02a4d6349c947caf
+  subpackages:
+  - generic
+- name: github.com/gogo/protobuf
+  version: 382325bbbb4d1c850eec1f3ec92a1a16f502d68b
+  subpackages:
+  - proto
+- name: github.com/hashicorp/golang-lru
+  version: 7087cb70de9f7a8bc0a10c375cb0d2280a8edf9c
+  subpackages:
+  - simplelru
+- name: github.com/henrylee2cn/cfgo
+  version: e6c3cc325b211f7f83b7dae0dd468ed454157d1a
+- name: github.com/henrylee2cn/goutil
+  version: d9e3175bb99fe6c167f135fc90b54967dd8c6362
+  subpackages:
+  - coarsetime
+  - errors
+  - graceful
+  - graceful/inherit_net
+  - pool
+- name: github.com/henrylee2cn/teleport
+  version: 88d22aaf70cd2718e1a1ef73dbd26958e1b123ca
+  subpackages:
+  - codec
+  - quic
+  - socket
+  - utils
+  - utils/color
+  - xfer
+- name: github.com/lucas-clemente/aes12
+  version: cd47fb39b79f867c6e4e5cd39cf7abd799f71670
+- name: github.com/lucas-clemente/quic-go
+  version: 714f38d5d0aff85894fd890718b991e361f03e7d
+  subpackages:
+  - internal/ackhandler
+  - internal/congestion
+  - internal/crypto
+  - internal/flowcontrol
+  - internal/handshake
+  - internal/protocol
+  - internal/utils
+  - internal/wire
+  - qerr
+- name: github.com/lucas-clemente/quic-go-certificates
+  version: d2f86524cced5186554df90d92529757d22c1cb6
+- name: github.com/tidwall/gjson
+  version: 181e11634d88481c14eeda620b056fdfaf330af9
+- name: github.com/tidwall/match
+  version: 33827db735fff6510490d69a8622612558a557ed
+- name: github.com/tidwall/pretty
+  version: 1166b9ac2b65e46a43d8618d30d1554f4652d49b
+- name: golang.org/x/crypto
+  version: a5d413f7728c81fb97d96a2b722368945f651e78
+  repo: https://github.com/golang/crypto
+  vcs: git
+  subpackages:
+  - curve25519
+  - hkdf
+- name: golang.org/x/net
+  version: 5c2c250b6a70e39b74bb544433a348a892b10530
+  repo: https://github.com/golang/net
+  vcs: git
+  subpackages:
+  - html
+- name: golang.org/x/protobuf
+  version: b5d812f8a3706043e23a9cd5babf2e5423744d30
+  repo: https://github.com/golang/protobuf
+  vcs: git
+- name: golang.org/x/sys
+  version: fead79001313d15903fb4605b4a1b781532cd93e
+  repo: https://github.com/golang/sys
+  vcs: git
+  subpackages:
+  - cpu
+  - unix
+- name: golang.org/x/text
+  version: 5d731a35f4867878fc89f7744f7b6debb3beded6
+  repo: https://github.com/golang/text
+  vcs: git
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  repo: https://github.com/golang/appengine
+  vcs: git
+  subpackages:
+  - urlfetch
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []
